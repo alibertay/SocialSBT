@@ -127,6 +127,8 @@ contract SocialSBT {
         uint256 tokenIndex_,
         uint256 point_
     ) public returns (bool) {
+        require(isOwned(msg.sender));
+        
         Voting memory _voting = Voting({
             votingIndex: votingIndex(),
             name: name_,
@@ -157,6 +159,8 @@ contract SocialSBT {
         uint256 tokenIndex_,
         uint256 point_
     ) public returns (bool) {
+        require(isOwned(msg.sender));
+
         Voting memory _voting = Voting({
             votingIndex: votingIndex(),
             name: name_,
