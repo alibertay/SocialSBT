@@ -7,7 +7,7 @@ Minting Mechanism: Users can mint their own token.
 
 Non-Transferability: Once minted, tokens are bound to the owner's wallet and cannot be transferred, emphasizing the personal value and commitment to the community.
 
-Deletion Option: Owners have the right to delete their token, allowing for a form of opt-out from the community if desired.
+Deletion Option: Owners have the right to delete their token, allowing for a form of opt-out from the community if desired. If the user does this, they get back the fee they paid to mint the token.
 
 Point System: Each token starts with zero points. Token holders can initiate proposals to increase their token's points, which are then voted on by the community.
 
