@@ -64,6 +64,7 @@ contract SocialSBT {
     );
 
     function vote(uint256 votingIndex_, bool choice_) public returns (bool) {
+        require(isOwned(msg.sender));
         require(!isVoted(votingIndex_, msg.sender));
         require(isVotingActive(votingIndex_));
 
