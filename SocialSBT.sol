@@ -249,6 +249,7 @@ contract SocialSBT {
 
         removeOwner(index_);
         updateIsOwned(false);
+        payable(msg.sender).transfer(price());
 
         return true;
     }
