@@ -3,7 +3,7 @@
 This repository hosts the smart contract for a unique non-transferable token (NTT) designed to facilitate a voting-based point system within decentralized communities such as DAOs. The token leverages the concept of soulbound tokens (SBTs) to create a digital representation of membership, participation, and reputation within a community.
 
 # Key Features:
-Minting Mechanism: Users can mint their own token by deploying a wallet contract and paying a fixed fee in ETH. This ensures a stake in the community's ecosystem.
+Minting Mechanism: Users can mint their own token.
 
 Non-Transferability: Once minted, tokens are bound to the owner's wallet and cannot be transferred, emphasizing the personal value and commitment to the community.
 
